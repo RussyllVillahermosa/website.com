@@ -1,0 +1,157 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #fff;
+}
+
+/* Header */
+header {
+    background: #82078d;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #121212;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background: #c8cfca;
+    color: #000000;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.hero button:hover {
+    background: #47199c;
+}
+
+/* Sections */
+section {
+    margin: 20px;
+    padding: 20px;
+    background: #232323;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Trending Tracks */
+.track {
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+    transition: transform 0.3s ease;
+    overflow-x: auto;
+}
+
+.track:hover {
+    transform: scale(1.1);
+}
+
+.track img {
+    width: 175px;
+    border-radius: 8px;
+}
+
+/* Trending Artists */
+.artist-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1000px;
+    overflow-x: auto;
+}
+
+.artist {
+    text-align: center;
+    margin: 15px;
+    transition: transform 0.3s ease;
+}
+
+.artist:hover {
+    transform: scale(1.1);
+}
+
+.artist img {
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Albums */
+.albums {
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+    transition: transform 0.3s ease;
+}
+
+.albums:hover {
+    transform: translateY(-10px);
+}
+
+.albums img {
+    width: 275px;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 15px;
+    background: #82078d;
+    color: #fff;
+    margin-top: 15px;
+}
